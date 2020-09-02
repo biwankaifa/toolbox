@@ -1,0 +1,28 @@
+{
+    "name": "biwankaifa/toolbox",
+    "description": "常用工具箱",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jinyicheng",
+            "email": "234067496@qq.com"
+        },
+        {
+            "name": "彼玩网络",
+            "email": "1115000280@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-simplexml": "*",
+        "ext-mbstring": "*",
+        "ext-iconv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "biwankaifa\\toolbox\\": "src/"
+        }
+    }
+}
